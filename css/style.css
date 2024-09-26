@@ -1,0 +1,31 @@
+body {
+    background-color:#006ADB;
+    color: #222A33;
+    font-family: "Playfair Display", serif;
+
+}
+header{
+    text-align: center;
+    color: #222A33;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lora", serif;
+    font-size: 300%;
+}
+#hero, footer {
+    text-align:center;
+    background-color: rgb(46, 207, 207);
+    color:black;
+    padding:20px;
+    border: 10px  outset rgb(46, 207, 207);
+    border-radius:30px;
+}
+#hero img {
+    width: 250px;
+}
+#bio {
+    text-align: center;
+}
+#major {
+    text-align:center;
+}
