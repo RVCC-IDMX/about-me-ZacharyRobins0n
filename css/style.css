@@ -12,6 +12,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Lora", serif;
     font-size: 300%;
 }
+img {
+    max-width: 100%;
+}
 #hero, footer {
     text-align:center;
     background-color: rgb(46, 207, 207);
@@ -28,4 +31,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 #major {
     text-align:center;
+}
+#Gallery {
+    border: 10px;
+    border-radius: 40px;
+    text-align:center;
+}
+#Gallery hr {
+    
 }
