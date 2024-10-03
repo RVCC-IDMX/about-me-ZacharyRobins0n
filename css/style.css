@@ -32,6 +32,9 @@ img {
 #major {
     text-align:center;
 }
+#hobbies ul li:nth-child(odd) {
+    color:#191970;
+}
 #Gallery, #lit {
     border: 10px;
     border-radius: 40px;
