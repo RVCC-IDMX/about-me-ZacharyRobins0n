@@ -1,5 +1,5 @@
 body {
-    background-color:#006ADB;
+    background-color:#5ca0ee;
     color: #222A33;
     font-family: "Playfair Display", serif;
 
@@ -81,11 +81,46 @@ background-image:radial-gradient(#191970, #3f29d1);
     left:0;
     right:0;
     width:100%;
-    height:100%
+    height:100%;
 }
 
 /* COntact Form */
 
 #formElements {
     display:grid;
+}
+#contact {
+padding: 1rem;
+max-width: 600px;
+margin: 2rem auto;
+}
+#fieldset {
+    border: 2px solid lightblue;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius:1rem;
+}
+legend {
+    background-color:rgb(191, 164, 29); 
+    color: white;
+    padding: .5em;
+}
+#contact input, #conact textarea, #contact select, #contact button {
+    padding:.5em;
+    font-size: 1rem;
+}
+#contact ul {
+    list-style:none;
+    border: 1px solid;
+    padding:0px;
+}
+#contact li {
+    margin:1rem;
+}
+#contact button {
+    background-color:rgb(183, 117, 19);
+    color:white;
+    border: 5px solid rgb(197, 199, 194);
+    width: 50%;
+    justify-self: center;
 }
